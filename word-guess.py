@@ -10,7 +10,7 @@ print("Guess the secret word!")
 
 for i in range(1, 4):
 
-    guess = input("Enter your guess: ").lower()
+    guess = input("Enter your guess: ")
 
     if guess == secret_word:
         print("Correct! You won!")
